@@ -1,31 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Anish Nepal | A Developer </title>
     <!-- CSS stylesheet Documents -->
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="vendor/bootstrap/css/bootstrap.min.css">
-    <link rel="stylesheet" href="vendor/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <!--Fav Icon-->
     <link rel="shortcut icon" href="bc6d9a1e2f32acbd.jpg">
 </head>
-<body> 
+
+<body>
     <!-- Header Section -->
     <!-- Completed -->
     <div class="Header" id="home">
-        <nav class="navbar navbar-expand-sm fixed-top">
+        <nav class="navbar navbar-dark bg-dark navbar-toggleable-sm navbar-expand-sm fixed-top">
             <div class="container">
                 <a href="./" class="navbar-brand" style="text-transform:uppercase;">AnishDesign</a>
-                <div class="Navigations navbar-collapse" id="scrollspy">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#scrollspy"
+                    aria-controls="scrollspy" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="scrollspy">
                     <ul class="navbar-nav ml-auto">
                         <li class="nav-item">
                             <a href="#portfolio" class="nav-link">Portfolio
                                 <span class="bottom_color"></span>
                             </a>
                         </li>
-                            <li class="nav-item">
+                        <li class="nav-item">
                             <a href="#about" class="nav-link">About
                                 <span class="bottom_color"></span>
                             </a>
@@ -45,33 +51,35 @@
                 </div>
             </div>
         </nav>
+        <div class="clearfix"></div>
         <div class="HeaderOverlay">
             <div class="container">
-                 <div class="row">
-                <div class="col col-lg-8">
-                    <h1 class="display-3">
-                     Welcome Here!
-                        <br>
-                        <h3>I am <span class="typed"></span></h3>
-                    </h1>
-                    <p class="lead">
-                        I am front End web developer using different tools and skills in my Work.
-                    </p>
-                    <hr class="my-4">
-                    <p class="aboutMe">
-                        I have interest in web developing since my childhood. I am honest to my work and I know it will lead my future so higher than my thoughts. I am passionate and honest towards my work.
-                    </p>
-                    <a href="Cv.html" class="btn btn-danger btn-lg my-4">
-                        <i class="fa fa-eye">See Portfolio</i>
-                    </a>
-                </div>
-                <div class="col col-lg-4 col-md-5 col-sm-4 col-xs-12">
-                    <img src="nep.png" alt="Anish Nepal">
-                </div>
+                <div class="row">
+                    <div class="col col-lg-8">
+                        <h1 class="display-3">
+                            Welcome Here!
+                            <br>
+                            <h3>I am <span class="typed"></span></h3>
+                        </h1>
+                        <p class="lead">
+                            I am front End web developer using different tools and skills in my Work.
+                        </p>
+                        <hr class="my-4">
+                        <p class="aboutMe">
+                            I have interest in web developing since my childhood. I am honest to my work and I know it
+                            will lead my future so higher than my thoughts. I am passionate and honest towards my work.
+                        </p>
+                        <a href="Cv.html" class="btn btn-danger btn-lg my-4">
+                            <i class="fa fa-eye">See Portfolio</i>
+                        </a>
+                    </div>
+                    <div class="col col-lg-4 col-md-5 col-sm-4 col-xs-12">
+                        <img src="nep.png" alt="Anish Nepal">
+                    </div>
                 </div>
                 <!-- <h3><i>Nice to Meet You !</i></h3> -->
                 <div class="text-center p-3">
-                    
+
                 </div>
             </div>
         </div>
@@ -87,94 +95,89 @@
                 </div>
                 <div class="Explain">These are the projects which I have created!! </div>
                 <div class="row">
-                    <div class="col-md-4 col-sm-6 my-4">
-                        <div class="card">
+                    <div class="col-md-4 col-sm-6 col-xs-12">
+                        <div class="card portfolio-card mb-3">
                             <div class="card">
+                                <div class="card-body">
+                                    <h3 class="card-header">Infinite-Scroll</h3></a>
+                                </div>
                                 <img src="Infinite.png" alt="Portfolio" class="card-top">
                                 <div class="HoverContent">
-                               <a href="infinite.html">Project Details</a>
+                                    <a href="infinite.html">Project Details</a>
                                 </div>
                             </div>
-                            <div class="card-body">
-                                <h3>Infinite-Scroll</h3></a>
-                            </div>
-                            <div class="card-text"></div>
                         </div>
                     </div>
-                    <div class="col-md-4 col-sm-6 my-4">
-                        <div class="card">
+                    <div class="col-md-4 col-sm-6 col-xs-12">
+                        <div class="card portfolio-card mb-3">
                             <div class="card">
+                                <div class="card-body">
+                                    <h3 class="card-header">Quotes Generator</h3></a>
+                                </div>
                                 <img src="Quotes.png" alt="Portfolio" class="card-top">
                                 <div class="HoverContent">
-                                    <a href="Quotes.html"> Project Details</a>
+                                    <a href="Quotes.html">Project Details</a>
                                 </div>
                             </div>
-                            <div class="card-body">
-                                <h3>Quotes-Generator</h3>
-                            </div>
-                            <div class="card-text"></div>
                         </div>
-                    </div>
-                    <div class="col-md-4 col-sm-6 my-4">
-                        <div class="card">
+                    </div>             
+                    <div class="col-md-4 col-sm-6 col-xs-12">
+                        <div class="card portfolio-card mb-3">
                             <div class="card">
-                                <img src="Picture.png" alt="Portfolio" class="card-top">
-                                <div class="HoverContent">
-                                    <a href="picture.html" >Project Details</a>
+                                <div class="card-body">
+                                    <h3 class="card-header">Web Calculator</h3></a>
                                 </div>
-                            </div>
-                            <div class="card-body">
-                                <h3>Picture In Picture</h3>
-                            </div>
-                            <div class="card-text"></div>
-                        </div>
-                    </div>
-                    <div class="col-md-4 col-sm-6 my-4">
-                        <div class="card">
-                            <div class="card">
-                                <img src="Spock.png" alt="Portfolio" class="card-top">
-                                <div class="HoverContent">
-                                    <a href="spock.html">Project Details</a>
-                                </div>
-                            </div>
-                            <div class="card-body">
-                                <h3>Spock-Rock-Game</h3>
-                            </div>
-                            <div class="card-text"></div>
-                        </div>
-                    </div>
-                    <div class="col-md-4 col-sm-6 my-4">
-                        <div class="card">
-                            <div class="card">
-                                <img src="Joke.png" alt="Portfolio" class="card-top">
-                                <div class="HoverContent">
-                                    <a href="joke.html" >Project Details</a>
-                                </div>
-                            </div>
-                            <div class="card-body">
-                                <h3>Joker-Teller</h3>
-                            </div>
-                            <div class="card-text"></div>
-                        </div>
-                    </div>
-                    <div class="col-md-4 col-sm-6 my-4">
-                        <div class="card">
-                            <div class="card">
                                 <img src="calc.png" alt="Portfolio" class="card-top">
                                 <div class="HoverContent">
                                     <a href="calc.html">Project Details</a>
                                 </div>
                             </div>
-                            <div class="card-body">
-                                <h3>Web Calculator</h3>
-                            </div>
-                            <div class="card-text"></div>
                         </div>
-                    </div>
-                </div>
+                    </div>             
+                    <div class="col-md-4 col-sm-6 col-xs-12">
+                        <div class="card portfolio-card mb-3">
+                            <div class="card">
+                                <div class="card-body">
+                                    <h3 class="card-header">Picture To Picture</h3></a>
+                                </div>
+                                <img src="Picture.png" alt="Portfolio" class="card-top">
+                                <div class="HoverContent">
+                                    <a href="picture.html">Project Details</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>             
+                    <div class="col-md-4 col-sm-6 col-xs-12">
+                        <div class="card portfolio-card mb-3">
+                            <div class="card">
+                                <div class="card-body">
+                                    <h3 class="card-header">Spock Rock Game</h3></a>
+                                </div>
+                                <img src="Spock.png" alt="Portfolio" class="card-top">
+                                <div class="HoverContent">
+                                    <a href="spock.html">Project Details</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>             
+                    <div class="col-md-4 col-sm-6 col-xs-12">
+                        <div class="card portfolio-card mb-3">
+                            <div class="card">
+                                <div class="card-body">
+                                    <h3 class="card-header">Joke Teller</h3></a>
+                                </div>
+                                <img src="Joke.png" alt="Portfolio" class="card-top">
+                                <div class="HoverContent">
+                                    <a href="joke.html">Project Details</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>             
+                   
                 </div>
             </div>
         </div>
+    </div>
     </div>
     <!-- About Section -->
     <!-- Finished -->
@@ -213,7 +216,7 @@
                                         <div class="percen">50%</div>
                                     </div>
                                 </div>
-                                 <div class="skill_progressbar">
+                                <div class="skill_progressbar">
                                     <div class="skill_progress" percentage="50"></div>
                                     <div class="Content">
                                         <h3>Bootstrap</h3>
@@ -300,7 +303,7 @@
     </div>
     <!-- Contact Section -->
     <!-- Finished -->
-    <div  id="contact">
+    <div id="contact">
         <div class="py-5">
             <div class="container text-center">
                 <div class="py-3"></div>
@@ -312,18 +315,22 @@
                     <div class="row">
                         <div class="col-md-6">
                             <div class="nameInput">
-                                <input type="text"  class="form-control" placeholder="Name" name="name" id="name" required>
+                                <input type="text" class="form-control" placeholder="Name" name="name" id="name"
+                                    required>
                             </div>
                             <div class="emailInput">
-                                <input type="email" class="form-control" placeholder="Email" name="email" id="email" required>
+                                <input type="email" class="form-control" placeholder="Email" name="email" id="email"
+                                    required>
                             </div>
                             <div class="phoneInput">
-                                <input type="tel" class="form-control" placeholder="Phone No" name="phone" id="phone" required>
+                                <input type="tel" class="form-control" placeholder="Phone No" name="phone" id="phone"
+                                    required>
                             </div>
                         </div>
                         <div class="col-md-6">
                             <div class="textInput">
-                                <textarea name="text" class="form-control" id="text" placeholder="Comments" required></textarea>
+                                <textarea name="text" class="form-control" id="text" placeholder="Comments"
+                                    required></textarea>
                             </div>
                         </div>
                         <div class="col-12">
@@ -332,7 +339,7 @@
                             </div>
                         </div>
                     </div>
-                </form>    
+                </form>
             </div>
         </div>
     </div>
@@ -381,9 +388,17 @@
         <span class="CurrentColor"></span>
     </div>
     <!-- Javascript Documents -->
-    <script src="vendor/jquery/jquery.min.js"></script>
-    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slim.js/4.0.3/Slim.min.js"
+        integrity="sha512-TX1+/VOkIsxHfU3QhC4aKS7VIaJ2Q16HCtisGSKbX+kqHVfPw0IRYS2aC34hns/j80MmDS6MeCE3UPYbwD+T4w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="vendor/typedjs/typed.js"></script>
     <script src="js/script.js"></script>
 </body>
+
 </html>

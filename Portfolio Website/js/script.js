@@ -1,3 +1,5 @@
+var $ = jQuery;
+
 $(".skill_progress").each(function () {
     $this = $(this);
     $percentage = $this.attr("percentage");
@@ -30,11 +32,7 @@ $(function () {
         loop: true,
     })
 })
-$(function () {
-    $("body").scrollspy({
-        target : "#scrollspy"
-    })
-})
+
 $(".ChangeTheme").on("click" ,function () {
     $ThemeColor = "#"+Math.random().toString(16).substr(2,6);
     console.log($ThemeColor);
